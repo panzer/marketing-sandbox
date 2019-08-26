@@ -1,0 +1,87 @@
+/*BEGIN - REMOVE WHEN YOU START YOUR PROJECT*/
+html {
+  height: 100%;
+}
+
+body {
+  font-family: monospace, sans-serif;
+  height: 100%;
+  margin: 0;
+}
+/*END - REMOVE WHEN YOU START YOUR PROJECT*/
+
+.hero {
+  
+}
+
+.hero__container {
+  width: calc(100% - 6rem);
+  padding: 3rem;
+  background: rgb(200, 231, 213);
+
+}
+
+.hero__main {
+  max-width: 50%;
+}
+
+.hero__title {
+  color: #442AB9;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 115%;
+}
+
+.hero__button {
+  color: white;
+  background:#442AB9;
+  border-radius: 4px;
+  box-shadow: none;
+  border: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+
+  padding: 1rem 3rem;
+}
+
+.hero__product_name {
+  margin-left: 12px;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 115%;
+  text-transform: uppercase;
+}
+
+.hero__product_icon {
+  width: 64px;
+  height: 64px;
+  background-color: red;
+}
+
+.hero__product {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero__partners {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+
+.hero__partner_logo {
+  width: 175px;
+  height: 64px;
+  background-color: darkgray;
+}
