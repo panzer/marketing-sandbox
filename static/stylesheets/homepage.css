@@ -1,0 +1,63 @@
+.homepage__content {
+    color: #1A191C;
+    padding: 0 6em;
+}
+
+.homepage__image {
+    width: 640px;
+    height: 400px;
+    background: gray;
+}
+
+.homepage__product {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4em 0em;
+}
+
+.homepage__product.reverse {
+    flex-flow: row wrap-reverse;
+}
+
+.homepage__blurb {
+    margin: 3em 0;
+}
+
+.homepage__product_name {
+    color: #442AB9;
+    margin: 0 1em;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 115%;
+    text-transform: uppercase;
+    max-width: 10em;
+}
+
+.homepage__description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.homepage__users {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 4em 0em;
+}
+
+.homepage__user_options {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.homepage__user_selector {
+    
+}

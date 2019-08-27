@@ -6,3 +6,11 @@ routes:
   homepage:
     path: /
     template: pages/index.html
+
+  content:
+    path: /content
+    template: pages/content.html
+
+  ssg:
+    path: /ssg
+    template: pages/ssg.html
